@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <title>jquery accordion</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Júlio Gabriel">
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.13.1/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="/resources/demos/style.css">
+        <meta name="description" content="Página de implementação de jquery + javascript">
+        <meta name="keywords" content="semãntica html, html, tecnologia, web, webdesigner, jquery">
+    </head>
+    <body>
+      	<div id="accordion">
+            <h3>Parte 1</h3>
+            <div>
+                <p>Texto 1</p>
+            </div>
+                <h3>Perte 2</h3>
+            <div>
+                <p>Texto 2</p>
+            </div>
+                <h3>Parte 1 3</h3>
+            <div>
+            <p>Texto 3 </p>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                    <li>Item 6</li>
+                    <li>Item 7</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+    </body>
+<script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+<script>
+    $( function() {
+    $( "#accordion" ).accordion({
+      heightStyle: "content"
+    });
+    } );
+</script>
+
+</html>
